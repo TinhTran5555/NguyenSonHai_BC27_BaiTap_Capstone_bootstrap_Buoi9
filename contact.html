@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Capstone_layout</title>
+    <title>Pooch Care an Animals Category Bootstrap Responsive Template</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -33,17 +33,78 @@
   </head>
 
   <body>
-    <div id="header"></div>
-    <header class="fixed-top">
+    <section class="sidebar">
+      <div class="sidebar-right">
+        <div class="container-fluid">
+          <hr class="text-white" />
+          <div class="icon-list">
+            <div class="icon-item">
+              <a
+                href="https://w3layouts.com/template/pooch-care-website-template/"
+                class="icon-link"
+              >
+                <i class="fa-solid fa-arrow-left"></i>
+                Back
+              </a>
+            </div>
+            <div class="icon-item">
+              <a
+                href="https://w3layouts.com/template/pooch-care-website-template/"
+                class="icon-link"
+              >
+                <i class="fa-solid fa-download"></i>
+                Download
+              </a>
+            </div>
+            <div class="icon-item">
+              <a
+                href="https://w3layouts.com/checkout/?add-to-cart=4763800000001057"
+                class="icon-link"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="circle-icon rounded-circle">
+      <a href="#" class="circle-icon-link">
+        <i class="fa-solid fa-angles-right"></i>
+      </a>
+    </section>
+
+    <header class="header bg-white fixed-top">
       <div class="container">
-        <nav class="navbar navbar-expand-lg stroke">
-          <h1><a class="navbar-brand" href="./home.html"> Pooch Care </a></h1>
-          <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav ml-auto">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">Pooch Care</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <i class="fa-solid fa-bars navbar-toggler-icon-expand"></i>
+              <i class="fa-solid fa-xmark navbar-toggler-icon-close"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="./home.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./home.html"
+                  >Home</a
+                >
               </li>
-              <li class="nav-item ">
+              <li class="nav-item">
                 <a class="nav-link" href="./about.html">About</a>
               </li>
               <li class="nav-item">
@@ -52,77 +113,53 @@
               <li class="nav-item">
                 <a class="nav-link" href="./gallery.html">Gallery</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">blog</a>
-              </li> -->
               <li class="nav-item dropdown">
                 <a
-                   class="nav-link dropdown-toggle"
-                   href="#"
-                   id="navbarDropdownMenuLink"
-                   role="button"
-                   data-bs-toggle="dropdown"
-                   aria-expanded="false"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                   Blog
-                   <i class="fa-solid fa-angle-down"></i>
+                  Blog
+                  <i class="fa-solid fa-angle-down"></i>
                 </a>
                 <ul
-                   class="dropdown-menu"
-                   aria-labelledby="navbarDropdownMenuLink"
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
                 >
-                   <li>
-                      <a class="dropdown-item" href="./blog-posts.html">Blog Posts</a>
-                   </li>
-                   <li>
-                      <a class="dropdown-item" href="./blog-single.html">Blog single</a>
-                   </li>
-                   <li>
-                      <a class="dropdown-item" href="#">Landing Page</a>
-                   </li>
+                  <li>
+                    <a class="dropdown-item" href="./blog-posts.html"
+                      >Blog Posts</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./blog-single.html"
+                      >Blog single</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Landing Page</a>
+                  </li>
                 </ul>
-             </li>
-
-              <li class="nav-item active">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
             </ul>
+
+            <div class="theme-lg">
+              <i class="fa-solid fa-moon"></i>
+            </div>
           </div>
 
-          <div class="icon">
-            <i class="far fa-moon"></i>
+          <div class="theme">
+            <i class="fa-solid fa-moon"></i>
           </div>
         </nav>
       </div>
     </header>
-    <section class="right-sidebar">
-      <div class="sidebar-top">
-        <i class="fas fa-angle-double-right"></i>
-      </div>
-      <div class="sidebar-bottom">
-        <div class="sidebar-item">
-          <a href="#">
-            <span class="sidebar-icon">
-              <i class="fa fa-arrow-left"></i>
-            </span>
-            <span class="sidebar-text">Back</span>
-          </a>
-          <a href="#">
-            <span class="sidebar-icon">
-              <i class="fa fa-download"></i>
-            </span>
-            <span class="sidebar-text">Download</span>
-          </a>
-          <a href="#">
-            <span class="sidebar-icon">
-              <i class="fa fa-shopping-cart"></i>
-            </span>
-            <span class="sidebar-text">Buy</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
     <section class="themes" id="themes">
       <div class="container">
         <h2 class="themes-title">Contact Us</h2>
